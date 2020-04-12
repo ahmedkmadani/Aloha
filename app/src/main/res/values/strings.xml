@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Aloha</string>
+    <string name="forogot_password">Forogot Password?</string>
+    <string name="login">Login</string>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+    <string name="password">Password</string>
+    <string name="emailr">Email</string>
+    <string name="sigin_up">Sign Up</string>
+    <string name="first_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="renter_password">Renter Password</string>
+    <string name="already_have_account_login">Already have account? Login</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="company">Company Name</string>
+    <string name="job">Job Title</string>
+    <string name="twitter">Twitter Handler</string>
+    <string name="linkdin">LinkdIn Account</string>
+</resources>
