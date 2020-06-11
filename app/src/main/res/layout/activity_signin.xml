@@ -68,7 +68,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_sigin"
+        android:id="@+id/btn_scan"
         android:layout_width="351dp"
         android:layout_height="52dp"
         android:layout_marginTop="32dp"
@@ -92,10 +92,10 @@
         android:textSize="12sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/btn_sigin"
+        app:layout_constraintEnd_toEndOf="@+id/btn_scan"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/btn_sigin"
-        app:layout_constraintTop_toBottomOf="@+id/btn_sigin"
+        app:layout_constraintStart_toStartOf="@+id/btn_scan"
+        app:layout_constraintTop_toBottomOf="@+id/btn_scan"
         app:layout_constraintVertical_bias="0.079" />
 
     <ImageView

@@ -10,7 +10,7 @@ class SigninActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signin)
 
-        btn_sigin.setOnClickListener {
+        btn_scan.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java).apply {
 
             }
