@@ -16,4 +16,5 @@
     <string name="twitter">Twitter Handler</string>
     <string name="linkdin">LinkdIn Account</string>
     <string name="scan">Scan</string>
+    <string name="please_wait">Please wait</string>
 </resources>

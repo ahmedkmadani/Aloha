@@ -38,7 +38,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <EditText
-                android:id="@+id/input_fname"
+                android:id="@+id/input_user_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -81,9 +81,9 @@
                 android:textColor="#304D63"
                 android:textSize="14sp"
                 android:textStyle="italic"
-                app:layout_constraintEnd_toEndOf="@+id/input_fname"
-                app:layout_constraintStart_toStartOf="@+id/input_fname"
-                app:layout_constraintTop_toBottomOf="@+id/input_fname" />
+                app:layout_constraintEnd_toEndOf="@+id/input_user_name"
+                app:layout_constraintStart_toStartOf="@+id/input_user_name"
+                app:layout_constraintTop_toBottomOf="@+id/input_user_name" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -201,9 +201,14 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                android:textColorHint="#304D63">
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:textColorHint="#304D63"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -228,7 +233,7 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/textInputLayout"
+                android:id="@+id/input_twiter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -264,9 +269,9 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:textColorHint="#304D63"
-                app:layout_constraintEnd_toEndOf="@+id/textInputLayout"
-                app:layout_constraintStart_toStartOf="@+id/textInputLayout"
-                app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
+                app:layout_constraintEnd_toEndOf="@+id/input_twiter"
+                app:layout_constraintStart_toStartOf="@+id/input_twiter"
+                app:layout_constraintTop_toBottomOf="@+id/input_twiter">
 
                 <EditText
                     android:id="@+id/input_linkidn"
